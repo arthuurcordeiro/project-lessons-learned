@@ -2,3 +2,17 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#logo-github {
+    width: 250px;
+    position: absolute;
+    left: 200px;
+    top: 1555px;
+}
+
+#logo-linkedin {
+    width: 250px;
+    position: absolute;
+    right: 350px;
+    top: 1563px;
+}
+
