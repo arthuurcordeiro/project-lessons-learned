@@ -70,7 +70,8 @@ li {
 .lado-direito {
   display: inline-block;
   font-size: 25px;
-  width: 400px;
+  width: 420px;
+  line-height: 35px;
 
 }
 
