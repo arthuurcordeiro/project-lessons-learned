@@ -1,18 +1,87 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: montserrat, sans-serif;
+}
+
+main {
+    padding-top: 220px;
+
+}
+
+li {
+    background-color: limegreen;
+    border-radius: 20px;
+    margin: 15px auto 15px;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+
+#minha_foto {
+    width: 400px;
+    height: 400px;
+    border-radius: 2%;
+    display: inline-block;
 }
 
 #logo-github {
     width: 250px;
-    position: absolute;
-    left: 200px;
-    top: 1555px;
+   margin-right: 200px;
+   height: 100px;
 }
 
 #logo-linkedin {
     width: 250px;
-    position: absolute;
-    right: 350px;
-    top: 1563px;
+    height: 80px;
+   margin-left: 200px;
 }
 
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background-color: limegreen;
+    font-family: montserrat, sans-serif;
+    font-size: 22px;
+
+}
+
+#licoes_aprendidas {
+    width: 15%;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    width: 15%;
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    margin-top: 0;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+    width: 650px;
+}
+
+.lado-direito {
+  display: inline-block;
+  font-size: 25px;
+  width: 400px;
+
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 208px;
+    left: 450px;
+    z-index: -1;
+}
+
+#rodape {
+    text-align: center;
+}
